@@ -3,10 +3,11 @@ body{
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
-    color: hsl(56, 56, 56);
+    color: dimgray;
   }
   
   .header{
+    width: 98.5%;
     background-color: #003711;
     padding: 0 10px;
     margin-top: 10px;
@@ -47,7 +48,8 @@ body{
   }
   
   .banner{
-    height: 300%;
+    width: 320px;
+    height: 250px;
     background-image: url(vaccine.jpeg);
     background-size: cover;
     margin-top: 0px;
@@ -58,14 +60,19 @@ body{
     color: goldenrod;
     font-size: 1.005em;
     font-family: 'Times New Roman', Times, serif;
+    padding:0 10%;
+    margin:10 0%;
     }
     
     .banner p{
+      margin: 0 5px;
       color: white;
       font-size: 0.5em
     }
     
     .banner button{
+      padding: 0 10px;
+      margin: 10 0px;
       background-color: rgb(25, 71, 40);
     width: 90px;
     height: 20px;
@@ -99,6 +106,7 @@ body{
     form{
       background-color: #66D489;
       padding: 20px;
+      color: black;
     }
     
     input, textarea{
@@ -141,6 +149,7 @@ body{
 table{
       font-size: 0.5em;
       background-color: #99E2B0;
+      color: black;
     }
 
   
